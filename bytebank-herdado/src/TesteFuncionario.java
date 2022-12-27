@@ -3,7 +3,7 @@ public class TesteFuncionario {
 
 	public static void main(String[] args) {
 		
-		Funcionario nico = new Funcionario();
+		Gerente nico = new Gerente();
 		nico.setNome("Nico Steppot");
 		nico.setCpf("012.345.678-90");
 		nico.setSalario(2600.00);
