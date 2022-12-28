@@ -1,10 +1,6 @@
-public class Gerente extends Funcionario implements Autenticavel {
-    
-    private int senha;
+public class Cliente implements Autenticavel {
 
-    public double getBonificacao() {
-    	return super.getSalario();
-    }
+    private int senha;
 
     @Override
     public void setSenha(int senha) {
@@ -19,5 +15,5 @@ public class Gerente extends Funcionario implements Autenticavel {
             return false;
         }
     }
-        
+
 }
